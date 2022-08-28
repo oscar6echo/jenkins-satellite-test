@@ -1,11 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('AAA') {
       steps {
-        sh '''echo \'This is a first test\'
-'''
-        sh '''echo \'This is a second step\'
+        sh '''echo \'TOTO\'
 '''
       }
     }
